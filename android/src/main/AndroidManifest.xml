@@ -1,3 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="altercode.xyz.uniqueidentifier">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="altercode.xyz.uniqueidentifier">
+
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"
+        tools:ignore="ProtectedPermissions" />
 </manifest>
